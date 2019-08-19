@@ -1,0 +1,53 @@
+h1{
+  background: linear-gradient(to bottom,#FF01FB,#02A9EA,#FAFF00);
+  border: 2px solid black;
+  text-align: center;
+  font-size: 45px
+
+}
+
+h2{
+  font-size: 30px;
+
+
+}
+
+
+.pagewrap{
+  width: 800px;
+  margin: 10px auto;
+  position: relative;
+
+}
+
+.center{
+  /* text-align: center; */
+  margin-left: 40px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.sidebar{
+  /* height: 100%; /* Full-height: remove this if you want "auto" height */ */
+  width: 20%%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 2; /* Stay at the top */
+  left: 3;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  color: teal;
+  padding: 17px;
+  text-align: center;
+
+  /* height: 30%;
+  width: 15%;
+  position: fixed;
+  border: 1px dotted black;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 1;
+  overflow-x: hidden;
+  text-align: center; */
+
+}
